@@ -1,6 +1,5 @@
 import { App, RemovalPolicy, Stack, StackProps } from '@aws-cdk/core';
 import * as s3 from '@aws-cdk/aws-s3';
-import * as s3Deployment from '@aws-cdk/aws-s3-deployment';
 import { BlockPublicAccess } from '@aws-cdk/aws-s3';
 import { Certificate, CertificateValidation } from '@aws-cdk/aws-certificatemanager';
 import { 
