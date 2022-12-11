@@ -24,6 +24,7 @@
     "@aws-cdk/aws-s3": "^1.182.0",
     "@aws-cdk/aws-s3-deployment": "^1.182.0",
     "aws-cdk-lib": "2.54.0",
+    "awscdk-v1-stack-finder": "^0.0.178",
     "constructs": "^10.0.0",
     "source-map-support": "^0.5.21"
   }
