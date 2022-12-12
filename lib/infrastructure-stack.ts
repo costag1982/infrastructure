@@ -91,7 +91,7 @@ export class InfrastructureStack extends Stack {
     });
 
     new BucketDeployment(this, 'Website Deployment', {
-        sources: [Source.asset("./website")],
+        sources: [Source.asset("./build")],
         destinationBucket: bucket,
         distribution,
         distributionPaths: ['/*'],
